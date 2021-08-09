@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <script src='js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="container mt-2">
+        <form>
+           <div class="row my-2">
+                <div class="card col-3 bg-primary">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="1">
+                        </div>
+                        <img src="mo.jpg" class="fluid-img">
+                        <div class="card-title" id="name1" value="mobile">Mobile</div>
+                        <div class="card-text">Description - OnePlus Nord CE 5G</div>
+                        <div class="card-text" id="prize1" value="29000">Prize - 29,000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty1"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-success">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="2">
+                        </div>
+                        <img src="headphone.jpg" class="fluid-img">
+                        <div class="card-title" id="name2" value="HeadPhone">Head Phones</div>
+                        <div class="card-text">Description - HeadPhone</div>
+                        <div class="card-text" id="prize2" value="400">Prize - 400</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty2"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-primary" >
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="3">
+                        </div>
+                        <img src="laptop.jpg" class="fluid-img">
+                        <div class="card-title" id="name3" value="Laptop">Laptop</div>
+                        <div class="card-text">Description - laptop</div>
+                        <div class="card-text" id="prize3" value="60000">Prize - 60,000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty3"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-success">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="4">
+                        </div>
+                        <img src="watch.jpg" class="fluid-img">
+                        <div class="card-title" id="name4" value="Watch">Watch</div>
+                        <div class="card-text">Description - Watch</div>
+                        <div class="card-text" id="prize4" value="1200">Prize - 1200</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="card col-3 bg-primary">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="5">
+                        </div>
+                        <img src="mo.jpg" class="fluid-img">
+                        <div class="card-title" id="name5" value="Notebooks">NoteBooks</div>
+                        <div class="card-text">Description - Notebooks</div>
+                        <div class="card-text" id="prize5" value="500">Prize - 500</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty5"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-success">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="6">
+                        </div>
+                        <img src="pen.jpg" class="fluid-img">
+                        <div class="card-title" id="name6" value="Pen">Pen</div>
+                        <div class="card-text">Description - Fountion Pen</div>
+                        <div class="card-text" id="prize6" value="100">Prize - 100</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty6"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-primary">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="7">
+                        </div>
+                        <img src="printer.jpg" class="fluid-img">
+                        <div class="card-title" id="name7" value="Printer">Printer</div>
+                        <div class="card-text">Description - HP Printer</div>
+                        <div class="card-text" id="prize7" value="50000">Prize - 50,000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty7"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-success">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="8">
+                        </div>
+                        <img src="tv.jpg" class="fluid-img">
+                        <div class="card-title" id="name8" value="TV">TV</div>
+                        <div class="card-text">Description - LG TV</div>
+                        <div class="card-text" id="prize8" value="120000">Prize - 120000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty8"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="card col-3 bg-primary">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="9">
+                        </div>
+                        <img src="ipad.jpg" class="fluid-img">
+                        <div class="card-title" id="name9" value="mobile">IPad</div>
+                        <div class="card-text">Description - IPad</div>
+                        <div class="card-text" id="prize9" value="290000">Prize - 2,90,000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty9"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-success">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="10">
+                        </div>
+                        <img src="fan.jpg" class="fluid-img">
+                        <div class="card-title" id="name10" value="Fan">Fan</div>
+                        <div class="card-text">Description - Fan</div>
+                        <div class="card-text" id="prize10" value="400">Prize - 400</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty10"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-primary">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="11">
+                        </div>
+                        <img src="tab.jpg" class="fluid-img">
+                        <div class="card-title" id="name11" value="Tablet">Tablet</div>
+                        <div class="card-text">Description - Samsung Tab</div>
+                        <div class="card-text" id="prize11" value="8000">Prize - 8000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty11"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-success">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="12">
+                        </div>
+                        <img src="router.jpg" class="fluid-img">
+                        <div class="card-title" id="name12" value="Router">Router</div>
+                        <div class="card-text">Description - Mi Router</div>
+                        <div class="card-text" id="prize12" value="1200">Prize - 1200</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty12"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="card col-3 bg-primary">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="13">
+                        </div>
+                        <img src="camera.jpg" class="fluid-img">
+                        <div class="card-title" id="name13" value="mobile">Camera</div>
+                        <div class="card-text">Description - Nokia Camera</div>
+                        <div class="card-text" id="prize13" value="30000">Prize - 30,000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty13"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-success">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="14">
+                        </div>
+                        <img src="mouse.jpg" class="fluid-img">
+                        <div class="card-title" id="name14" value="Mouse">Mouse</div>
+                        <div class="card-text">Description -  ireless Mouse</div>
+                        <div class="card-text" id="prize14" value="400">Prize - 400</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty14"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-primary">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="15">
+                        </div>
+                        <img src="calculator.jpg" class="fluid-img">
+                        <div class="card-title" id="name15" value="Calculator">Calculator</div>
+                        <div class="card-text">Description - Casio </div>
+                        <div class="card-text" id="prize15" value="2000">Prize - 2000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty15"></div>
+                    </div>
+                </div>
+                <div class="card col-3 bg-success">
+                    <div class="card-body">
+                        <div class="for-check">
+                            <input type="checkbox" class="form-check-input" name="check_val" value="16">
+                        </div>
+                        <img src="speaker.jpg" class="fluid-img">
+                        <div class="card-title" id="name16" value="Speaker">Speaker</div>
+                        <div class="card-text">Description - Boat Speaker</div>
+                        <div class="card-text" id="prize16" value="5000">Prize - 5000</div>
+                        <div class="card-text">Qty - <input type="text" class="form-control" id="qty16"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+                <button type="button" class="btn btn-primary" id="cart">Add To Cart</button>
+            </div>
+            <div class="mt-2">
+                <button type="button" class="btn btn-primary" id="submit">Submit</button>
+            </div>
+        </form>
+        <span id="msg"></span>
+        <!-- <div class="row">
+            <div class="table" > -->
+                <table class="table table-borderless" id="table_name" style="visibility: hidden;">
+                    <tr>
+                        <th colspan="5">Ordered Items</th>
+                    </tr>
+                    <tr>
+                        <td>Sr No</td>
+                        <td>Item</td>
+                        <td>Price</td>
+                        <td>Qty</td>
+                        <td>Total Price</td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno1"></span></td>
+                        <td><span id="item1"></span></td>
+                        <td><span id="price1"></span></td>
+                        <td><span id="item_qty1"></span></td>
+                        <td><span id="total1"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno2"></span></td>
+                        <td><span id="item2"></span></td>
+                        <td><span id="price2"></span></td>
+                        <td><span id="item_qty2"></span></td>
+                        <td><span id="total2"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno3"></span></td>
+                        <td><span id="item3"></span></td>
+                        <td><span id="price3"></span></td>
+                        <td><span id="item_qty3"></span></td>
+                        <td><span id="total3"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno4"></span></td>
+                        <td><span id="item4"></span></td>
+                        <td><span id="price4"></span></td>
+                        <td><span id="item_qty4"></span></td>
+                        <td><span id="total4"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno5"></span></td>
+                        <td><span id="item5"></span></td>
+                        <td><span id="price5"></span></td>
+                        <td><span id="item_qty5"></span></td>
+                        <td><span id="total5"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno6"></span></td>
+                        <td><span id="item6"></span></td>
+                        <td><span id="price6"></span></td>
+                        <td><span id="item_qty6"></span></td>
+                        <td><span id="total6"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno7"></span></td>
+                        <td><span id="item7"></span></td>
+                        <td><span id="price7"></span></td>
+                        <td><span id="item_qty7"></span></td>
+                        <td><span id="total7"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno8"></span></td>
+                        <td><span id="item8"></span></td>
+                        <td><span id="price8"></span></td>
+                        <td><span id="item_qty8"></span></td>
+                        <td><span id="total8"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno9"></span></td>
+                        <td><span id="item9"></span></td>
+                        <td><span id="price9"></span></td>
+                        <td><span id="item_qty9"></span></td>
+                        <td><span id="total9"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno10"></span></td>
+                        <td><span id="item10"></span></td>
+                        <td><span id="price10"></span></td>
+                        <td><span id="item_qty10"></span></td>
+                        <td><span id="total10"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno11"></span></td>
+                        <td><span id="item11"></span></td>
+                        <td><span id="price11"></span></td>
+                        <td><span id="item_qty11"></span></td>
+                        <td><span id="total11"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno12"></span></td>
+                        <td><span id="item12"></span></td>
+                        <td><span id="price12"></span></td>
+                        <td><span id="item_qty12"></span></td>
+                        <td><span id="total12"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno13"></span></td>
+                        <td><span id="item13"></span></td>
+                        <td><span id="price13"></span></td>
+                        <td><span id="item_qty13"></span></td>
+                        <td><span id="total13"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno14"></span></td>
+                        <td><span id="item14"></span></td>
+                        <td><span id="price14"></span></td>
+                        <td><span id="item_qty14"></span></td>
+                        <td><span id="total14"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno15"></span></td>
+                        <td><span id="item15"></span></td>
+                        <td><span id="price15"></span></td>
+                        <td><span id="item_qty15"></span></td>
+                        <td><span id="total15"></span></td>
+                    </tr>
+                    <tr>
+                        <td><span id="srno16"></span></td>
+                        <td><span id="item16"></span></td>
+                        <td><span id="price16"></span></td>
+                        <td><span id="item_qty16"></span></td>
+                        <td><span id="total16"></span></td>
+                    </tr>
+                </table>
+            <!-- </div>
+        </div> -->
+    </div>
+    <script>
+        document.getElementById("cart").onclick=function()
+        {
+            document.getElementById("table_name").style.visibility="visible"
+            document.getElementById("msg").innerHTML=" "
+            var srno=1;
+            var checkval=document.getElementsByName("check_val")
+            // document.getElementById("msg").innerHTML+="Ordered Item <br>"
+            for(var i=0;i<checkval.length;i++)
+            {
+                var num =""
+                if(checkval[i].checked)
+                {
+                    num += checkval[i].value
+                    // document.getElementById('msg').innerHTML+=num
+                    var name_val = 'name'+num;
+                    var val = document.getElementById(name_val).getAttribute('value');
+                    var prize = 'prize'+num
+                    var prize_val = document.getElementById(prize).getAttribute('value');
+                    var qty = 'qty'+num
+                    var qty_val = document.getElementById(qty).value;
+                    if(qty_val == "")
+                    {
+                        qty_val=0
+                    }
+                    var total_prize = prize_val*qty_val
+                    var sr ="srno"+srno
+                    var it = "item"+srno
+                    var pr = "price"+srno
+                    var qt ="item_qty"+srno
+                    var t = "total"+srno
+                    // document.getElementById("msg").innerHTML+=total_prize
+                    document.getElementById(sr).innerHTML=srno
+                    document.getElementById(it).innerHTML=val
+                    document.getElementById(pr).innerHTML=prize_val
+                    document.getElementById(qt).innerHTML=qty_val
+                    document.getElementById(t).innerHTML=total_prize
+                    srno=srno+1
+                    // document.getElementById("msg").innerHTML+=sr+" "+it
+                }
+            }
+        }             
+        document.getElementById("submit").onclick=function()
+        {
+            var total_prize1=0
+            document.getElementById("msg").innerHTML=" "
+            var checkval=document.getElementsByName("check_val")
+            for(var i=0;i<checkval.length;i++)
+            {
+                var num =""
+                if(checkval[i].checked)
+                {
+                    num += checkval[i].value
+                    // document.getElementById('msg').innerHTML+=num
+                    var name_val1 = 'name'+num;
+                    var val1 = document.getElementById(name_val1).getAttribute('value');
+                    var prize1 = 'prize'+num
+                    var prize_val1 = document.getElementById(prize1).getAttribute('value');
+                    var qty1 = 'qty'+num
+                    var qty_val1 = document.getElementById(qty1).value;
+                    if(qty1 == "")
+                    {
+                        qty1=0
+                    }
+                    total_prize1= (total_prize1)+(prize_val1*qty_val1)
+                }
+            }
+            alert("Total Prize: "+total_prize1)
+        }      
+    </script>
+</body>
+</html>
